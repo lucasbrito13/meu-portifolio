@@ -1,64 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfólio | Lucas Brito</title>
+  <title>Portfólio - Lucas Brito</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Lucas Eduardo Menezes Brito</h1>
-    <nav>
-      <a href="#sobre">Sobre Mim</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#contato">Contato</a>
-    </nav>
+  <header class="hero">
+    <div class="hero-content">
+      <img src="img/IMG_20240923_131747_975.jpg" alt="Foto de Lucas Eduardo Menezes Brito" class="perfil-img">
+      <div>
+        <h1>Lucas Brito</h1>
+        <p>Desenvolvedor Web</p>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-        <div class="hero-content">
-          <div class="hero-text">
-            <h2>👨‍💻 Olá, eu sou o Lucas Brito</h2>
-            <p>Desenvolvedor Web apaixonado por transformar ideias em soluções digitais!</p>
-          </div>
-          <div class="hero-img">
-            <img src="img/IMG_20240923_131747_975.jpg" alt="Foto de Lucas Brito">
-          </div>
-        </div>
-      </section>
-    <section id="sobre" class="sobre">
-      <div class="texto">
-        <p>👋 Olá! Eu sou o Lucas Eduardo Menezes Brito, tenho 22 anos e moro em Belém do Pará. Sou cristão, casado e pai orgulhoso de dois pequenos. 👨‍👩‍👧‍👦<br>
-        Minha jornada na área de TI começou lá atrás, fazendo manutenção de computadores, formatando, limpando gabinetes e instalando softwares. 💻 Hoje, estou cursando Análise e Desenvolvimento de Sistemas na UNAMA e me aprofundando no desenvolvimento de aplicações web, que é a área em que estou focado. 🚀<br>
-        Além disso, estou sempre buscando me atualizar com cursos complementares e, no futuro, quero me aventurar no desenvolvimento mobile 📱, mas um passo de cada vez, né?<br>
-        Estou empolgado para continuar crescendo na área e colaborar em projetos incríveis! Vamos juntos? 💡</p>
-      </div>
-    </section>
+  <section class="projects-section">
+    <h2>Projetos</h2>
+    <div class="projects-container" id="projects-container">
+      <!-- Projetos serão injetados por JavaScript -->
+    </div>
+  </section>
 
-    <section id="projetos" class="projetos">
-        <h2>Projetos em Destaque</h2>
-        <div class="galeria" id="galeria">
-          <!-- Projetos com nome e iframe carregados dinamicamente -->
-        </div>
-      </section>
+  <section class="about-section">
+    <h2>Sobre Mim</h2>
+    <p>
+      👋 Olá! Eu sou o Lucas Eduardo Menezes Brito, tenho 22 anos e moro em Belém do Pará. Sou cristão, casado e pai orgulhoso de dois pequenos. 👨‍👩‍👧‍👦<br>
+      Minha jornada na área de TI começou lá atrás, fazendo manutenção de computadores, formatando, limpando gabinetes e instalando softwares. 💻 Hoje, estou cursando Análise e Desenvolvimento de Sistemas na UNAMA e me aprofundando no desenvolvimento de aplicações web, que é a área em que estou focado. 🚀<br>
+      Além disso, estou sempre buscando me atualizar com cursos complementares e, no futuro, quero me aventurar no desenvolvimento mobile 📱, mas um passo de cada vez, né?<br>
+      Estou empolgado para continuar crescendo na área e colaborar em projetos incríveis! Vamos juntos? 💡
+    </p>
+  </section>
 
-    <section id="contato" class="contato">
-      <h2>Contato</h2>
-      <ul>
-        <li><a href="mailto:seuemail@example.com">📧 Email</a></li>
-        <li><a href="https://www.linkedin.com/in/seu-perfil" target="_blank">💼 LinkedIn</a></li>
-        <li><a href="https://www.facebook.com/seu-perfil" target="_blank">📘 Facebook</a></li>
-        <li><a href="https://www.instagram.com/seu-perfil" target="_blank">📸 Instagram</a></li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Lucas Brito</p>
-  </footer>
+  <section class="contact-section">
+    <h2>Contato</h2>
+    <div class="contact-icons">
+      <a href="mailto:lucaseduardo131922@gmail.com" target="_blank">📧 Email</a>
+      <a href="https://www.linkedin.com/in/lucas-brito-667552241/" target="_blank">💼 LinkedIn</a>
+      <a href="https://www.facebook.com/lucasbrito1306/?_rdc=2&_rdr#" target="_blank">📘 Facebook</a>
+      <a href="https://www.instagram.com/l.brito13/" target="_blank">📷 Instagram</a>
+    </div>
+  </section>
 
   <script src="script.js"></script>
 </body>
 </html>
+
+
+
